@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 4s;
+}
+
+.div:hover{
+    width: 100px;
+}
+
+.section{
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+}
+
+@keyframes myanm {
+        
+}
