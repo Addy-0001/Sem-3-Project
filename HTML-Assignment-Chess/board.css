@@ -1,0 +1,26 @@
+.chessboard {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.column {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
