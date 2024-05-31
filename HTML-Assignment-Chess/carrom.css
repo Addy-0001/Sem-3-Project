@@ -1,0 +1,32 @@
+.board{
+    position: relative; 
+    width: 400px;
+    height: 400px;
+    border: 10px solid rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+.hole{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
