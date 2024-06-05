@@ -4,6 +4,7 @@ import MembersView from '@/views/MembersView.vue'
 import MemberTypeView from '@/views/MemberTypeView.vue'
 import AttendanceView from '@/views/AttendanceView.vue'
 import ExerciseView from '@/views/ExerciseView.vue'
+import AccountView from '@/views/AccountView.vue'
 
 const routes = [
   {
@@ -21,7 +22,7 @@ const routes = [
   },
   {
     path: '/members',
-    name: 'members',
+    // name: 'members',
     component: MembersView
   },
   {
@@ -38,6 +39,11 @@ const routes = [
     path : '/exercise',
     name : 'exercise',
     component : ExerciseView
+  },
+  {
+    path : '/account',
+    name : 'account', 
+    component : AccountView
   }
 ]
 
